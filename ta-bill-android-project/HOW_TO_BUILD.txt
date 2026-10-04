@@ -1,0 +1,14 @@
+BUILD YOUR APK (free, about 5 minutes, no Android Studio)
+
+1. Go to github.com and sign in (free account).
+2. Click "+" > New repository. Name it ta-bill. Keep it Private. Create.
+3. Click "uploading an existing file". Unzip this project on your computer and
+   drag ALL its contents (the app folder, .github folder, build.gradle,
+   settings.gradle, gradle.properties) into the page. Click Commit changes.
+   (If the .github folder does not upload: Actions > "set up a workflow
+   yourself", paste the text of .github/workflows/build.yml, and commit.)
+4. Click the "Actions" tab > "Build APK" > "Run workflow".
+5. Wait about 3 to 5 minutes until it shows a green tick.
+6. Open the finished run, scroll to "Artifacts", download TA-Bill-APK,
+   unzip it and install app-debug.apk on your phone.
+If the build shows a red cross, open it and copy the error text to Claude.
